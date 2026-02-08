@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us - Sweet Crumbs</title>
+</head>
+
+<body>
+
+<header>
+    <h1>About Sweet Crumbs Bakery Café</h1>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About Us</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section>
+    <h2>Our Story</h2>
+    <p>
+        This section will explain how Sweet Crumbs Bakery Café was founded and its connection to the local community.
+    </p>
+</section>
+
+<section>
+    <h2>Our Mission</h2>
+    <p>
+        This section will describe our commitment to quality ingredients, friendly service,
+        and creating a welcoming space for everyone.
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Sweet Crumbs Bakery Café</p>
+</footer>
+
+</body>
+</html>
 
