@@ -67,3 +67,22 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.home-section .text {
+    width: 50%;
+}
+
+.home-section .image {
+    width: 50%;
+}
+
+.home-section img {
+    width: 100%;
+    border-radius: 10px;
+}
