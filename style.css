@@ -159,3 +159,13 @@ button:hover {
     background-color: #444;
     color: #ffffff;
 }
+
+body {
+    background-color: #fff8f0;
+    color: #333;
+}
+
+section {
+    background-color: white;
+    color: #333;
+}
