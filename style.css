@@ -7,18 +7,11 @@ body {
 }
 
 header {
-    background-image: url("/images/bakery.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+    background-color: #8B4513;
     color: white;
     text-align: center;
-    padding: 60px 20px;
-
-    position: relative;
+    padding: 20px;
 }
-
 header::before {
     content: "";
     position: absolute;
