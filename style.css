@@ -71,7 +71,7 @@ footer {
     margin-top: 20px;
 }
 
-/* BUTTON */
+/* Button */
 button {
     margin-top: 10px;
     padding: 10px 15px;
@@ -94,12 +94,10 @@ button:hover {
     color: #ffffff;
 }
 
-/* Header */
 .dark-mode header {
     background-color: #3b1f0f;
 }
 
-/* Navigation */
 .dark-mode nav {
     background-color: #8B4513;
 }
@@ -108,22 +106,30 @@ button:hover {
     color: #ffffff;
 }
 
-/* Sections */
 .dark-mode section {
     background-color: #2a2a2a;
     color: #ffffff;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
 }
 
-/* Text */
 .dark-mode h1,
 .dark-mode h2,
 .dark-mode p {
     color: #ffffff;
 }
 
-/* Button */
 .dark-mode button {
     background-color: #444;
     color: #ffffff;
+}
+
+/* 🔥 FORCE LIGHT MODE (FIXES YOUR ISSUE) */
+body:not(.dark-mode) {
+    background-color: #fff8f0 !important;
+    color: #333 !important;
+}
+
+body:not(.dark-mode) section {
+    background-color: white !important;
+    color: #333 !important;
 }
