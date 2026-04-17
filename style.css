@@ -160,6 +160,9 @@ button:hover {
 .dark-mode button {
     background-color: #444;
     color: white;
+    .dark-mode header::before {
+    background: rgba(0, 0, 0, 0.7);
+}
 }
 
 
