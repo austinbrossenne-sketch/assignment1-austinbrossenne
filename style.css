@@ -3,31 +3,16 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #fff8f0;
+    color: #333;
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Header */
 header {
     background-color: #8B4513;
     color: white;
     text-align: center;
     padding: 20px;
-}
-header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-header h1,
-header p,
-header nav,
-header button {
-    position: relative;
-    z-index: 1;
 }
 
 /* Navigation */
@@ -72,6 +57,9 @@ img {
     width: 300px;
     border-radius: 10px;
     margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Footer */
@@ -83,27 +71,7 @@ footer {
     margin-top: 20px;
 }
 
-/* Home Layout */
-.home-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 30px;
-}
-
-.home-section .text {
-    width: 50%;
-}
-
-.home-section .image {
-    width: 50%;
-}
-
-.home-section img {
-    width: 100%;
-}
-
-/* BUTTON STYLE */
+/* BUTTON */
 button {
     margin-top: 10px;
     padding: 10px 15px;
@@ -140,7 +108,7 @@ button:hover {
     color: #ffffff;
 }
 
-/* Sections (THIS WAS THE MAIN PROBLEM) */
+/* Sections */
 .dark-mode section {
     background-color: #2a2a2a;
     color: #ffffff;
@@ -158,19 +126,4 @@ button:hover {
 .dark-mode button {
     background-color: #444;
     color: #ffffff;
-}
-
-body {
-    background-color: #fff8f0;
-    color: #333;
-}
-
-section {
-    background-color: white;
-    color: #333;
-}
-
-body:not(.dark-mode) section {
-    background-color: white;
-    color: #333;
 }
